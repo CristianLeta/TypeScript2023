@@ -34,6 +34,7 @@ const autos: Auto[] = [
   new Auto("Volkswagen", "Bora", 110, 190),
 ];
 
+// Muestra los autos por pantalla
 for (const auto of autos) {
   auto.mostrarInfo();
 }
