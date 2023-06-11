@@ -25,7 +25,7 @@ class Auto {
   }
 }
 
-// Crear array de autos
+// Se crea array de autos
 const autos: Auto[] = [
   new Auto("Ford", "Falcon", 200, 250),
   new Auto("Fiat", "Argo", 100, 190),
@@ -34,12 +34,11 @@ const autos: Auto[] = [
   new Auto("Volkswagen", "Bora", 110, 190),
 ];
 
-// Mostrar los autos por pantalla
 for (const auto of autos) {
   auto.mostrarInfo();
 }
 
-// Calcular tiempo óptimo para recorrer una distancia en cada auto
+// Calculador de tiempo para recorrer una distancia en cada auto
 const distancia = 500; // Distancia en kilómetros
 for (const auto of autos) {
   const tiempoOptimo = auto.calcularTiempo(distancia);
