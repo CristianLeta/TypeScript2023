@@ -1,0 +1,5 @@
+function ejecallback (callback: () => void) {
+
+
+    
+}
